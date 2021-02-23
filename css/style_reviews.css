@@ -1,0 +1,191 @@
+*{
+	box-sizing: inherit	;
+}
+html {
+    box-sizing: border-box;
+}
+body {
+	color: #343434;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #FFF0F5;
+	color: #31271B;
+	text-align: center;
+}
+.una {
+	color: #31271B;
+	font-family: Rockwell;
+	font-size: 70px;
+	font-weight: 900;
+	margin: 0 auto;
+	padding: 10px;
+}
+.welcome {
+	font-family: Goudy Old Style;
+	font-size: 40px;
+	font-weight: 900;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+/*	#D9D6F1 - Lavender Web
+	#EBEBF4 - Magnolia
+	#343434 - Almost Black
+	#A88960 - Mocca
+	#31271B - Dark Mocca
+	#f1f1f1 - Light Grey
+	#ddd - Darker Grey
+	#ccc - Darker Grey
+	#F9F7F4 - Almost White
+	#c1c1c1 - Grey
+	#F0FFFF - Azure
+	#FFE4C4 - Blackisque
+	#A0522D - Sienna
+	#FAFAD2 - lightgoldenrodyellow
+	#FFFFF0 - Ivory
+	#FFF0F5 - Lavender Blush
+	#FFEFD5 - Papaya Whip
+	#FFDEAD - Navajo White
+	#FF7F50 - Coral
+	#F5FFFA - Mintcream
+*/
+
+.navbar-wrap {
+	background-color: #31271B;
+	text-align: center;
+}
+.navbar {
+	display: inline-block;
+}
+.tablink {
+	background-color: #31271B;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	border: none;
+	padding: 10px;
+}
+.navbar-content {
+	background-color: #f1f1f1;
+	display: none;
+	position: absolute;
+	min-width: 140px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,02);
+	z-index: 1;
+}
+.navbar-content a {
+	color: black;
+	text-align: left;
+	font-size: 14px;
+	display: block;
+	padding: 10px 10px;
+}
+
+.navbar-content a:hover {text-decoration: underline}
+
+.navbar:hover .navbar-content {display: block;}
+
+.navbar:hover .tablink a {color: white; text-decoration: underline}
+
+section .navbar-search {
+	background-color: white-space;
+}
+
+section .content {
+	background-color: white-space;
+}
+.article-wrap {
+	font-family: 'Zilla Slab', serif;
+	font-size: 18px;
+	color: black;
+	width: 80%;
+	margin: 0 auto;
+	padding: 1px 0;
+	border-bottom: 5px solid black;
+}
+.time {
+	font-size: 18px;
+	margin: 20px;
+}
+.subs {
+	background-color: white-space;
+	color: black;
+	font-family: 'Zilla Slab', serif;
+	font-size: 20px;
+}
+.subs-wrap {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+form {
+	background: white-space;
+	color: black;
+	font-family: Optima, sans-serif;
+	font-size: 14px;
+	display: grid;
+	border: 2px solid #c1c1c1;
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 1em;
+}
+form input {
+	background: #fff;
+	border: 1px solid #9c9c9c;
+}
+form button {
+	background: lightgrey;
+	padding: 0.7em;
+	width: 100%;
+	border: 0;
+}
+form button:hover {
+	text-decoration: underline;
+}
+label {
+	padding: 0.5em 0.5em 0.5em 0;
+}
+input {
+	padding: 0.7em;
+	margin-bottom: 0.5rem;
+}
+input:focus {
+	outline: 3px solid gold;
+}
+footer {
+	background-color: #31271B;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+.pp {
+	text-align: center;
+	padding-top: 0px;
+}
+a {
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+	color: white;
+}
+a:active {
+	text-decoration: none;
+}
